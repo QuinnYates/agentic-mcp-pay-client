@@ -1,5 +1,9 @@
 # agentic-mcp-pay-client
 
+[![npm](https://img.shields.io/npm/v/agentic-mcp-pay-client)](https://npmjs.com/package/agentic-mcp-pay-client)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![Tests](https://img.shields.io/badge/tests-72%20passing-brightgreen)
+
 Client SDK for paid MCP tools — auto-pay, budget controls, multi-protocol.
 
 Drop-in wrapper for the MCP SDK `Client` that transparently handles `PAYMENT_REQUIRED` challenges. Your agent calls tools as usual; the client negotiates payment behind the scenes.
@@ -105,3 +109,11 @@ This client is designed to work with [agentic-mcp-pay](https://github.com/yeqy1/
 ## License
 
 MIT
+
+---
+
+## See Also
+
+- [agentic-mcp-pay](https://github.com/QuinnYates/agentic-mcp-pay) — server-side payment gateway: wrap any MCP server with payment enforcement
+- [agentic-mcp-pay-demo](https://github.com/QuinnYates/agentic-mcp-pay-demo) — full end-to-end demo of the payment loop
+- [Tutorial: Monetise your MCP tool in 5 minutes](https://gist.github.com/QuinnYates/agentic-mcp-pay-tutorial)
