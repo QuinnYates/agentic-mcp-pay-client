@@ -1,0 +1,37 @@
+{
+  "name": "agentic-mcp-pay-client",
+  "version": "0.1.0",
+  "description": "Client SDK for paid MCP tools — auto-pay, budget controls, multi-protocol",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "mcp",
+    "payments",
+    "x402",
+    "mpp",
+    "stripe",
+    "agentic",
+    "ai-agents",
+    "client"
+  ],
+  "author": "Quinn Ye",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "@noble/hashes": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.2"
+  }
+}
