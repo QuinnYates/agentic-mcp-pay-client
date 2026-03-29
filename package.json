@@ -1,6 +1,6 @@
 {
   "name": "agentic-mcp-pay-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Client SDK for paid MCP tools — auto-pay, budget controls, multi-protocol",
   "type": "module",
   "main": "dist/index.js",
